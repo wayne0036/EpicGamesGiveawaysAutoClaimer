@@ -35,6 +35,7 @@ jobs:
       - name: Get Gifts
         run: |
           cd workdir
+          mkdir .egstore
           npm install
           node claimer '${{ secrets.EMAIL }}' '${{ secrets.PASSWD }}' 0 '${{ secrets.SECRET }}' > games.info
 
