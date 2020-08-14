@@ -28,7 +28,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: lingsamuel/epicgames-freebies-claimer
-          ref: 'aa21c57d0ef19948a4f2864207173c86d5c0ffb7'
+          ref: 'e3e1e572675bc8333c43d32cf716199f7911bde3'
           path: workdir
 
       # 在 'Settings' - 'Secrets' 添加 EMAIL (你的 Epic 邮箱)，PASSWD (你的 Epic 密码)，SECRET（二步验证 Secret）
