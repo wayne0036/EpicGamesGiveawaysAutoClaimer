@@ -1,10 +1,10 @@
 name: Get Epic Game
 
 on:
-#  schedule: # 删除本行开头的 # 号
-#    - cron: "25 2 * * *" # 删除本行开头的 # 号，另外建议修改一下这个时间，有助于减少失败概率。第一个数字为分钟，第二个数字为小时，注意留空格。
-#  watch: # 删除本行开头的 # 号
-#    types: started # 删除本行开头的 # 号，点击 Star 按钮可以手动触发 Actions
+  schedule: # 删除本行开头的 # 号
+    - cron: "25 8 * * *" # 删除本行开头的 # 号，另外建议修改一下这个时间，有助于减少失败概率。第一个数字为分钟，第二个数字为小时，注意留空格。
+  watch: # 删除本行开头的 # 号
+    types: started # 删除本行开头的 # 号，点击 Star 按钮可以手动触发 Actions
   push:
     branches:
       - master
